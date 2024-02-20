@@ -29,6 +29,8 @@
 
 .after::after {
     position: absolute;
+    z-index: -1;
+    border-radius: 5px;
     content: "";
 
     width: 0 ;
@@ -50,6 +52,8 @@
 
 .before::before {
     position: absolute;
+    z-index: -1;
+    border-radius: 5px;
     content: "";
 
     width: 0 ;
